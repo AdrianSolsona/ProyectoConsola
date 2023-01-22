@@ -34,7 +34,7 @@ Proyecto Finalizado
 
 *Funcionalidad 3: Reproducción de video mp4 en la panatalla principal de la consola.
 
-*Funcionalidad 4: Efecto de pulsacion en todos los botones de la consola a excepción de los joysticks izquierdo y derecho.
+*Funcionalidad 4: Efecto de pulsación en todos los botones de la consola a excepción de los joysticks izquierdo y derecho.
 
 *Funcionalidad 5: Efecto de desplazamiento similar al que se tendria si se estuviera jugando a la consola en ambos joysticks.
 ### Acceso al proyecto
