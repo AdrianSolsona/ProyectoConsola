@@ -38,7 +38,8 @@ Proyecto Finalizado
 
 * Funcionalidad 5: Efecto de desplazamiento similar al que se tendria si se estuviera jugando a la consola en ambos joysticks.
 ### Acceso al proyecto
-
+Hacer click en el siguiente link:
+- https://proyecto-consola.vercel.app/
 ### Tecnologías utilizadas
 * HTML 5
 * CSS
