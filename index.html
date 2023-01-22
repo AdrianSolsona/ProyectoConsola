@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/logo.css">
+</head>
+<body>
+    <!--Comienzo del logo-->
+    <div class="fondo-logo"> <!--Fondo del Logo-->
+        <!--Comienzo de logotipo interior con los joycons-->
+        <div class="logotipo">
+            <!--Logotipo interior con los joycons-->
+            <div class="joycon-izq-logo"><!--Inicio del joycon izquierdo del logotipo-->
+                <!--Parte interior del joycon izquierdo del logo-->
+                <div class="joycon-izq-int">
+                    <div class="punto-blanco"></div>
+                </div>
+            </div>
+            <!--Inicio del joycon izquierdo del logotipo-->
+            <div class="joycon-der-logo">
+                <div class="punto-rojo"></div>
+            </div>
+        </div>
+        <!--Inicio de las letras del logo (nintendo SWICTH)-->
+        <div class="nintendo">
+            <p class="letras-nintendo">N I N T E N D O</p>
+        </div>
+        <div class="switch">
+            <p class="letras-switch">SWITCH</p>
+        </div>
+    </div>
+    <!--Final del logo-->
+    <!--Inicio del div principal donde esta contenido todo el codigo de la consola-->
+    <div class="centro">
+        <div class="nintendo-switch"></div>
+        <!--Gatillo izquierdo de la consola(El gatillo se posiciona fuera del div del joycon izquierdo de la consola)-->
+        <div class="gatillo-izq"></div>
+        <!--Inicio del joycon izquierdo de la consola-->
+        <div class="joycon-izq">
+            <!--Boton menos "-" de la consola-->
+            <div class="boton-menos efecto"></div>
+            <!--joystick izquierdo-->
+            <div class="joystick-1 efecto-joy-1"></div>
+            <!--Inicio de las flechas de dirección-->
+            <div class="flechas">
+                <div class="flecha flecha-arriba efecto"><i class="bi bi-caret-up-fill icono-flecha"></i></div>
+                <div class="flecha flecha-abajo efecto"><i class="bi bi-caret-down-fill icono-flecha"></i></div>
+                <div class="flecha flecha-derecha efecto"><i class="bi bi-caret-right-fill icono-flecha"></i></div>
+                <div class="flecha flecha-izquierda efecto"><i class="bi bi-caret-left-fill icono-flecha"></i></div>
+            </div>
+            <!--Final de las flechas de dirección-->
+            <!--Boton izquierdo situado abajo del todo del joycon izquierdo-->
+            <div class="ultimo-boton-izq efecto"></div>
+            <!--Borde izquierdo para cubrir espacio entre joycon y pantalla-->
+            <div class="borde-faltante-izq"></div>
+        </div>
+        <!--Final del joycon izquierdo-->
+        <!--Inicio de la parte de la pantalla principal-->
+        <div class="principal-pantalla">
+            <!--Botones superiores a la izquierda de la consola-->
+            <div class="botones-arriba">
+                <div>
+                    <div class="botones-arriba-1"></div>
+                    <div class="botones-arriba-2"></div>
+                </div>
+            </div>
+            <!--Final de los botones superiores-->
+            <!--Pantalla que aparece cuando se realiza hover sobre la pantalla principal-->
+            <div class="pantalla-oculta"></div>
+            <!--Inicio del marco de color gris claro de la pantalla-->
+            <div class="marco-pantalla">
+                <!--Pantalla donde se reproduce el video-->
+                <div class="pantalla">
+                    <video autoplay="autoplay" loop="loop" muted defaultMuted  playsinline  oncontextmenu="return false;"  preload="auto">
+                        <source src="./video/New Super Mario Bros. U Deluxe - Tráiler del lanzamiento (Nintendo Switch).mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <!--Final del codigo correspondiente a la pantalla-->
+        <!--Gatillo izquierdo de la consola(El gatillo se posiciona fuera del div del joycon izquierdo de la consola)-->
+        <div class="gatillo-der"></div>
+        <!--Inicio del joycon derecho de la consola-->
+        <div class="joycon-der">
+            <!--Boton del mas "+" de la consola-->
+            <div class="boton-mas">
+                <div>
+                    <p class="sim-mas">+</p>
+                </div>
+            </div>
+            <!--Inicio de los botones con letras del joycon derecho-->
+            <div class="boton-letras">
+                <div class="letras boton-arriba-letra efecto"><p class="tecla">X</p></div>
+                <div class="letras boton-abajo-letra efecto"> <p class="tecla">A</p></i></div>
+                <div class="letras boton-derecha-letra efecto"><p class="tecla-b">B</p></div>
+                <div class="letras boton-izquierda-letra efecto"><p class="tecla-y">Y</p></div>
+            </div>
+            <!--Final de los botones con letras del joycon derecho-->
+            <!--joystick izquierdo-->
+            <div class="joystick-2 efecto-joy-2"></div>
+            <!--Boton de home situado abajo del joystick izquierdo-->
+            <div class="boton-casa efecto"></div>
+            <!--Borde derecho para cubrir espacio entre joycon y pantalla-->
+            <div class="borde-faltante-der"></div>
+        </div>
+            <!--Final del joycon derecho-->
+    </div>
+</body>
+</html>

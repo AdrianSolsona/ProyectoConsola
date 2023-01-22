@@ -1,0 +1,129 @@
+/* Estilos del logo de nintendo switch de la parte superior*/
+/*Fondo del logo de nintendo switch*/
+.fondo-logo{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: 59%;
+    background-color:red;
+    border-radius: 3px;
+    margin-top: 60px;
+}
+/*Estilos del logo del interiro tanto los joycons como las palabras de la parte inferior*/
+.logotipo{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20%;
+    margin-left: 70px;
+}
+/*Inicio de los estilos para los dos joycons del logo de nintendo switch*/
+/*joycon izquierdo del logo*/
+.joycon-izq-logo{
+    background-color: white;
+    width: 45%;
+    position: relative;
+    right: 38px;
+    height: 100%;
+    border-top-left-radius: 40px ;
+    border-bottom-left-radius: 40px;
+    left: 15%;
+    padding: -3%;
+    margin-top: 65px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px; 
+}
+.joycon-izq-logo:hover{
+    transform: translate(0,-60px);
+    transition-duration: 1s;
+}
+/*Parte interior del joycon izquierdo del logo*/
+.joycon-izq-int{
+    background-color:red;
+    position: relative;
+    width: 73%;
+    right: 36px;
+    height: 89%;
+    border-top-left-radius: 40px ;
+    border-bottom-left-radius: 40px;
+    left: 14%;
+    top: 5%;
+    transition: all 1s;
+    border-bottom-right-radius: 5px;
+
+}
+/*joycon derecho del logo*/
+.joycon-der-logo{
+    background-color: white;
+    width: 42%;
+    position: relative;
+    left: 38px;
+    height: 100%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    right: -50%;
+    padding: -3px;
+    margin-top: 65px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: all 1s;
+}
+/*Efecto de trasicion hacia arriba del joycon derecho*/
+.joycon-der-logo:hover{
+    transform: translate(0,-60px);
+    transition-duration: 1s;
+}
+.punto-rojo{
+    background-color: red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 45%;
+    left: 24%;
+}
+.punto-blanco{
+    background-color: white;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 13%;
+    left: 23%;
+}
+/*Estilos del div contenedor de las palabras de la parte inferior del logo*/
+.nintendo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    transition: all 1s;
+}
+/*Estilos de las palabras de la parte inferior del logo*/
+/*Estilo de la palabra NINTENDO*/
+.letras-nintendo{
+    font-size: 1.5rem;
+    color: beige;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-family: 'Gothic A1', sans-serif;
+}
+/*Estilo de la palabra SWITCH*/
+.switch{
+    display: flex;
+    text-align: center;
+    margin-top: 3px;
+    position: relative;
+    bottom: 15%;
+    left: 25.5%;
+    transition: all 1s;
+}
+.letras-switch{
+    font-size: 2.45rem;
+    font-weight: 900;
+    color: beige;
+    font-family: 'Gothic A1', sans-serif;
+}
