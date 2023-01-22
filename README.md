@@ -28,15 +28,15 @@ La consola permite separar las diferentes partes de la misma asi como la visuali
 ### Estado del proyecto
 Proyecto Finalizado
 ### Características de la aplicación y demostración
-*Funcionalidad 1: Posibilidad de separar ambos joycons de su posicion hacia arriba mediante una translación
+* Funcionalidad 1: Posibilidad de separar ambos joycons de su posicion hacia arriba mediante una translación
 
-*Funcionalidad 2: Posibilidad de desplazar la pantalla fuera de la zona junto a los joycons mediante una translación.
+* Funcionalidad 2: Posibilidad de desplazar la pantalla fuera de la zona junto a los joycons mediante una translación.
 
-*Funcionalidad 3: Reproducción de video mp4 en la panatalla principal de la consola.
+* Funcionalidad 3: Reproducción de video mp4 en la panatalla principal de la consola.
 
-*Funcionalidad 4: Efecto de pulsación en todos los botones de la consola a excepción de los joysticks izquierdo y derecho.
+* Funcionalidad 4: Efecto de pulsación en todos los botones de la consola a excepción de los joysticks izquierdo y derecho.
 
-*Funcionalidad 5: Efecto de desplazamiento similar al que se tendria si se estuviera jugando a la consola en ambos joysticks.
+* Funcionalidad 5: Efecto de desplazamiento similar al que se tendria si se estuviera jugando a la consola en ambos joysticks.
 ### Acceso al proyecto
 
 ### Tecnologías utilizadas
